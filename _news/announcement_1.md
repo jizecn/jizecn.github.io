@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-09-17
 inline: true
 ---
 
-A simple inline announcement.
+Organised and chaired the Invited Special Session "AI, Robotics and HMS for Smart Manufacturing" at the KES 2020 conference
