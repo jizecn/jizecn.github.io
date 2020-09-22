@@ -2,10 +2,27 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Modules I have been teaching
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## 2019-2021
+  - EN3062 Robotics and Image Processing (Module leader)
+  - EN4062 Advanced Robotics (Module leader)
+  - EN4110 Mechatronics Design
 
-Organize your courses by years, topics, or universities, however you like!
+## 2018-2019
+  - EN4110 Mechatronics Design
+  - EN3062 Robotics and Image Processing
+  - EN4062 Advanced Robotics
+  - ENT604 Measurement Systems (Module Leader)
+
+## 2017-2018
+  - EN4100 Mechatronics Design
+  - EN4062 Advanced Robotics
+  - ENT604 Measurement Systems (Module Leader)
+
+## 2016-2017
+  - EN4100 Mechatronics Design
+  - ENT604 Measurement Systems
+  - Others, including Design and Lab
