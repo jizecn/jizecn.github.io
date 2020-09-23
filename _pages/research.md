@@ -63,9 +63,11 @@ We are interested in understanding and bridging the gap between real-world probl
     </div>
 </div>
 
-To reconstruct the profile of a 3D surface has wide applications in reverse engineering, computer-aided medical diagnosis, in-situ defect detection for manufacturing processes, etc. Vision-based solutions have the advantages of being low cost, non-destructive, and with easy implementation. This project aims to explore solutions integrating advances in imaging techniques, artificial intelligence, and robot manipulation for efficient, large scale, and high resolution 3D surface reconstruction. 
 
 We have developed a robot-based photometric stereo image acquisition system. 
+
+Reconstructing the profile of a 3D surface has wide applications in reverse engineering, computer-aided medical diagnosis, in-situ defect detection for manufacturing processes, etc. Vision-based solutions have the advantages of being low cost, non-destructive, and with easy implementation. This project aims to explore solutions integrating advances in imaging techniques, artificial intelligence, and robot manipulation for efficient, large scale, and high resolution 3D surface reconstruction. 
+
 
 ## Autonomous Collaborative Vehicles (ACV)
 <div class="row">
