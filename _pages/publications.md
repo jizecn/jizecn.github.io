@@ -7,7 +7,7 @@ years: [2020, 2019, 2018, 2017, 012]
 nav: true
 ---
 
-<div class="recent publications">
+<div class="publications">
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
