@@ -1,7 +1,7 @@
 ---
 layout: page
-title: consulting
-permalink: /consulting/
+title: collaboration
+permalink: /collaboration/
 description: Opportunities to collaborate with industry.
 nav: true
 ---
