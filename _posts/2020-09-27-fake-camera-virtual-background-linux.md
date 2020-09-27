@@ -17,6 +17,7 @@ foo@bar:~$ cd /path/to/Linux-Fake-Background-Webcam
 In one termal, 
 ```console
 foo@bar:~$ cd bodypix
+foo@bar:~$ node app.js
 ```
 
 In another terminal,
