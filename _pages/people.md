@@ -68,6 +68,50 @@ nav: true
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+		<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Blank_portrait.png' | relative_url }}" style="width:200px;"/>
+	</div>
+    <div class="col-sm-8">
+		<div class="row-sm">
+		<strong style="color: blue;">Yan Gao</strong>
+		</div>
+		<div class="row-sm">
+		PhD student (from Oct 2020)					
+		</div>
+		<div class="row-sm">
+		Research: Reinforcement Learning for robot mapless navigation
+		</div>
+		<div class="row-sm">
+		Email: gaoy84@cardiff.ac.uk					
+		</div>
+	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+		<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Blank_portrait.png' | relative_url }}" style="width:200px;"/>
+	</div>
+    <div class="col-sm-8">
+		<div class="row-sm">
+		<strong style="color: blue;">Nitin Shinde</strong>
+		</div>
+		<div class="row-sm">
+		PhD student (from Feb 2021)					
+		</div>
+		<div class="row-sm">
+		Research: Probabilistic Graphical Models for Robotics
+		</div>
+		<div class="row-sm">
+		Email: shindeN@cardiff.ac.uk					
+		</div>
+	</div>
+  </div>
+</div>
+
 ## Research Associates and Visiting Scholars
 
 <div class="container">
