@@ -8,7 +8,7 @@ nav: true
 
 With years of research and development in academic and industrial environments, I have proven experience to design, implement, review, and deliver reliable products with thorough theoretical problem understanding and analyses.
 
-Rather than an ivory tower academic, I always consider myself an engineer first. I believe R&D needs to be more driven by real-world challenges in order to have greater impact.
+I believe R&D needs to be more driven by real-world challenges in order to have greater impact.
 
 Please do not hesitate to get in touch if we can help with your problems or collaborate. 
 
