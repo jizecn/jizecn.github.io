@@ -14,6 +14,11 @@ nav: true
 	- 2020
 <iframe width="420" height="315" src="https://www.youtube.com/embed/BmwxevgsdGc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Robot Snake
+    - Year 4 Student Project (Mechatronics), 2019 - 2020 and 2020 - 2021
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1PW7l37KmXI" title="Robot Snake" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Leap Motion and Smart Eye System for controlling Kuka Youbot
 	- 2018
 <iframe width="420" height="315" src="https://www.youtube.com/embed/BVZPhXlJ7G0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
