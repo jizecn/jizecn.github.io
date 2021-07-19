@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Ze  Ji | blank</title>
+<title>Ze  Ji | Fake camera with virtual background on Linux</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/fake-camera-virtual-background-linux/">
 
 <!-- Open Graph -->
 
@@ -147,26 +147,46 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>ropal</h1>
-    <h2>robots, research, software (emacs, linux), programming etc</h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Fake camera with virtual background on Linux</h1>
+    <p class="post-meta">September 27, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <p>Zoom and Teams are supported by Linux. However, they provide limited functions, especially the limited virtual background function. For this purpose, I tested the following solution which works well on both Zoom and Teams, providing not only virtual background, but also foreground.</p>
+
+<p>The solution is based on the github repository of <a href="https://github.com/fangfufu/Linux-Fake-Background-Webcam">Linux-Fake-Background-Webcam</a>. This is based on the blog article of <a href="https://elder.dev/posts/open-source-virtual-background/">Open Source Virtual Background</a>.</p>
+
+<p>Installation is pretty clear to follow from the above website. To use it, I am taking a note here for personal purpose:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">foo@bar:~$</span><span class="w"> </span><span class="nb">cd</span> /path/to/Linux-Fake-Background-Webcam
+</code></pre></div></div>
+
+<p>In one termal,</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">foo@bar:~$</span><span class="w"> </span><span class="nb">cd </span>bodypix
+<span class="gp">foo@bar:~$</span><span class="w"> </span>node app.js
+</code></pre></div></div>
+
+<p>In another terminal,</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">foo@bar:~$</span><span class="w"> </span><span class="nb">cd </span>fakecam
+<span class="gp">foo@bar:~$</span><span class="w"> </span>python fake.py
+</code></pre></div></div>
+
+<p>I am using conda to setup the Python environment, as the default Python 3 is too old on my Linux (Ubuntu 16.04). So before running the above, I should run</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">foo@bar:~$</span><span class="w"> </span>conda activate    <span class="c"># I am using the base one (default one)</span>
+</code></pre></div></div>
+
+<p>The background image and foreground (and foreground_mask) can be replaced in the folder of fakecam. To activate the images, run ctrl + c in the fakecame console. To quit fakecam, run ctrl + \.</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/fake-camera-virtual-background-linux/">Fake camera with virtual background on Linux</a></h3>
-        <p class="post-meta">September 27, 2020</p>
-        <p>Using virtual camera background with Zoom and Teams on Linux</p>
-      </li>
-    
-  </ul>
+  </article>
 
   
-
 
 </div>
 
