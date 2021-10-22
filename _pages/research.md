@@ -14,10 +14,10 @@ We encourage cutting edge research with endless possibilities, and also aim at p
 
 My group's research interests can be loosely divided into the following areas:
 
+  - Deep Reinforcement Learning for robot navigation and manipulation
+  - State Estimation, e.g. Visual SLAM and Visual Odometry
   - Sensor-guided autonomous robot navigation and manipulation
-  - Reinforcement Learning for robot control and planning
-  - Multi-modal robot sensing, such as robot vision, tactile sensing, lidar, etc.
-  - 3D Vision, including 3D reconstruction and Visual SLAM
+  - Multi-modal robot sensing, such as robot vision, tactile sensing, etc.
   - Computer Vision and Data-driven learning-based methods for smart manufacturing, including in-situ monitoring, surface 3D metrology, robotic assembly and so on
 
 ## Sensor-guided Autonomous Navigation and SLAM

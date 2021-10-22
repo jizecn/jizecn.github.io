@@ -103,7 +103,7 @@ nav: true
 		PhD student (from Feb 2021)					
 		</div>
 		<div class="row-sm">
-		Research: Probabilistic Graphical Models for Robotics
+		Research: Human Robot Collaboration
 		</div>
 		<div class="row-sm">
 		Email: shindeN@cardiff.ac.uk					
@@ -111,6 +111,7 @@ nav: true
 	</div>
   </div>
 </div>
+
 
 ## Research Associates and Visiting Scholars
 
