@@ -97,16 +97,38 @@ nav: true
 	</div>
     <div class="col-sm-8">
 		<div class="row-sm">
-		<strong style="color: blue;">Nitin Shinde</strong>
+		<strong style="color: blue;">Boliang Cai</strong>
 		</div>
 		<div class="row-sm">
-		PhD student (from Feb 2021)					
+		PhD student (from Oct 2021)					
 		</div>
 		<div class="row-sm">
-		Research: Human Robot Collaboration
+		Research: Reinforcement Learning for safe and robust robot navigation
 		</div>
 		<div class="row-sm">
-		Email: shindeN@cardiff.ac.uk					
+		Email: caib4@cardiff.ac.uk					
+		</div>
+	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+		<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Blank_portrait.png' | relative_url }}" style="width:200px;"/>
+	</div>
+    <div class="col-sm-8">
+		<div class="row-sm">
+		<strong style="color: blue;">Yixin Chen</strong>
+		</div>
+		<div class="row-sm">
+		PhD student (from Oct 2021)					
+		</div>
+		<div class="row-sm">
+		Research: Robot localisation for autonomous navigation
+		</div>
+		<div class="row-sm">
+		Email: cheny240@cardiff.ac.uk			
 		</div>
 	</div>
   </div>
