@@ -6,6 +6,31 @@ description: team members.
 nav: true
 ---
 
+## Postdocotoral researcher
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+	        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/yxt.jpg' | relative_url }}" style="width:200px;"/>
+	</div>
+    <div class="col-sm-8">
+		<div class="row-sm">
+		<strong style="color: blue;">Xintong Yang</strong>
+		</div>
+		<div class="row-sm">
+		PhD student (from Oct 2019)	and PDRA (since Jan 2023)				
+		</div>
+		<div class="row-sm">
+		Research: Deep reinforcement learning for robot manipulation
+		</div>
+		<div class="row-sm">
+		Email: yangx66@cardiff.ac.uk					
+		</div>
+	</div>
+  </div>
+</div>
+
+
 ## PhD Students
 
 <div class="container">
