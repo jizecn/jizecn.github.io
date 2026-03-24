@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-bundle exec jekyll build
+bundle exec jekyll serve --livereload

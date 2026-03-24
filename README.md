@@ -80,31 +80,47 @@ ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" targ
 
 ## Getting started
 
+## This repository
+
+This repository is configured as a personal GitHub Pages site.
+Use the commands below from the repository root:
+
+```bash
+./bin/setup
+./bin/serve
+./bin/cibuild
+```
+
+- `./bin/setup` installs gems into `vendor/bundle` so the site can be built without writing to the system Ruby path.
+- `./bin/serve` starts a local Jekyll preview server.
+- `./bin/cibuild` runs the production build and is the quickest local verification step before pushing.
+- The site is pinned to Ruby `3.2.2` via `.ruby-version`.
+
+Deployment is handled by GitHub Actions in `.github/workflows/pages.yml`.
+Push to `master` or run the workflow manually from the Actions tab to publish the site.
+In the repository settings, GitHub Pages should be configured to use `GitHub Actions` as the source.
+
 For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
 
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system, run:
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
-$ bundle install
-$ bundle exec jekyll serve
+$ ./bin/setup
+$ ./bin/serve
 ```
 
-Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, **commit** your final changes.
-Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+To validate the production build locally, run:
 
 ```bash
-$ ./bin/deploy [--user]
+$ ./bin/cibuild
 ```
-By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
-The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
-Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
+
+To deploy the personal site, commit and push to `master`.
+GitHub Actions will build the site and publish it to GitHub Pages.
 
 **Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
 
