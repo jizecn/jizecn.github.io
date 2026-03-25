@@ -87,31 +87,24 @@ We develop perception pipelines that improve localisation, mapping, scene unders
 
 Recent work in this direction includes hierarchical reinforcement learning for mapless navigation with Predictive Neighbouring Space Scoring (PNSS), where compact predicted explorable-space representations support long-horizon subgoal selection, and GNSS-aware autonomy in urban environments, where lidar-based LOS/NLOS classification and reflection-path reasoning help analyse and mitigate non-line-of-sight effects. Together, these projects reflect a broader interest in making robot perception more actionable: not only estimating the environment, but improving navigation reliability under sparse rewards, perceptual ambiguity, and real-world sensing distortions.
 
-<div class="row align-items-stretch">
-  <div class="col-md-8 mt-3 mt-md-0 d-flex">
+<div class="row justify-content-center align-items-center text-center">
+  <div class="col-md-4 mt-3 mt-md-0 d-flex justify-content-center">
     <div class="w-100">
-      <div class="row">
-        <div class="col-sm-6 mt-3 mt-md-0">
-          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PNSS_Fig1.gif' | relative_url }}" alt="PNSS figure 1" />
-        </div>
-        <div class="col-sm-6 mt-3 mt-md-0">
-          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PNSS_Fig2.gif' | relative_url }}" alt="PNSS figure 2" />
-        </div>
-      </div>
-      <p class="text-center mt-2 mb-0">
-        <a href="https://doi.org/10.1109/TASE.2023.3312237" target="_blank" rel="noopener noreferrer">PNSS framework and predicted neighbouring space scoring</a>
-      </p>
+      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PNSS_Fig1.gif' | relative_url }}" alt="PNSS figure 1" />
     </div>
   </div>
-  <div class="col-md-4 mt-3 mt-md-0 d-flex">
+  <div class="col-md-4 mt-3 mt-md-0 d-flex justify-content-center">
     <div class="w-100">
-      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/GNSS_data.gif' | relative_url }}" alt="GNSS NLOS figure 1" />
-      <p class="text-center mt-2 mb-0">
-        <a href="https://doi.org/10.1109/ICAC65379.2025.11196430" target="_blank" rel="noopener noreferrer">GNSS NLOS mitigation in urban navigation</a>
-      </p>
+      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PNSS_Fig2.gif' | relative_url }}" alt="PNSS figure 2" />
+    </div>
+  </div>
+  <div class="col-md-4 mt-3 mt-md-0 d-flex justify-content-center">
+    <div class="w-100">
+      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cai_TASE.gif' | relative_url }}" alt="GNSS urban environment figure" />
     </div>
   </div>
 </div>
+<p class="text-center mt-2 mb-0">Reinforcement Learning for Mapess Navigation</p>
 
 ### Robot Manipulation and Reinforcement Learning
 
