@@ -11,5 +11,9 @@
     "build": "./bin/cibuild",
     "serve": "./bin/serve",
     "test": "./bin/test"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.10.0",
+    "prettier": "^3.8.0"
   }
 }

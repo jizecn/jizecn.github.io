@@ -98,7 +98,7 @@ Use the commands below from the repository root:
 - `./bin/cibuild` runs the production build and is the quickest local verification step before pushing.
 - The site is pinned to Ruby `3.4.9` via `.ruby-version`.
 - The site is pinned to Node.js `22` via `.nvmrc` and `.node-version`.
-- The GitHub Actions build uses Bundler `2.6.9`.
+- The GitHub Actions build uses Bundler `4.0.4`.
 
 Deployment is handled by GitHub Actions in `.github/workflows/pages.yml`.
 Push to `master` or run the workflow manually from the Actions tab to publish the site.

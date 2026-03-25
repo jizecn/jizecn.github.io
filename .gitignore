@@ -5,3 +5,10 @@ _site
 .bundle
 vendor/bundle
 .DS_store
+.idea
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+node_modules/
+vendor
