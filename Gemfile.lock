@@ -176,16 +176,16 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.3)
-  jekyll-email-protect
-  jekyll-paginate-v2
-  jekyll-scholar
-  jemoji
-  unicode_utils
-  webrick (~> 1.8)
+  jekyll (~> 4.4, >= 4.4.1)
+  jekyll-email-protect (~> 1.1)
+  jekyll-paginate-v2 (~> 3.0)
+  jekyll-scholar (~> 7.3)
+  jemoji (~> 0.13)
+  unicode_utils (~> 1.4)
+  webrick (~> 1.9)
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.4.9p0
 
 BUNDLED WITH
-   2.3.19
+   2.6.9

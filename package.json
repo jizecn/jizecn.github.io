@@ -1,0 +1,15 @@
+{
+  "name": "jizecn.github.io",
+  "private": true,
+  "engines": {
+    "node": "22.x",
+    "npm": ">=10 <11"
+  },
+  "scripts": {
+    "setup": "./bin/setup",
+    "doctor": "bundle exec jekyll doctor",
+    "build": "./bin/cibuild",
+    "serve": "./bin/serve",
+    "test": "./bin/test"
+  }
+}

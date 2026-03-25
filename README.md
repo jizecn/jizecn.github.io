@@ -88,13 +88,17 @@ Use the commands below from the repository root:
 ```bash
 ./bin/setup
 ./bin/serve
+./bin/test
 ./bin/cibuild
 ```
 
 - `./bin/setup` installs gems into `vendor/bundle` so the site can be built without writing to the system Ruby path.
 - `./bin/serve` starts a local Jekyll preview server.
+- `./bin/test` runs `jekyll doctor` and a production build.
 - `./bin/cibuild` runs the production build and is the quickest local verification step before pushing.
-- The site is pinned to Ruby `3.2.2` via `.ruby-version`.
+- The site is pinned to Ruby `3.4.9` via `.ruby-version`.
+- The site is pinned to Node.js `22` via `.nvmrc` and `.node-version`.
+- The GitHub Actions build uses Bundler `2.6.9`.
 
 Deployment is handled by GitHub Actions in `.github/workflows/pages.yml`.
 Push to `master` or run the workflow manually from the Actions tab to publish the site.
@@ -106,7 +110,7 @@ Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switchin
 
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system, run:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/), [Bundler](https://bundler.io/), and Node.js installed on your system, run:
 
 ```bash
 $ ./bin/setup
@@ -116,7 +120,16 @@ $ ./bin/serve
 To validate the production build locally, run:
 
 ```bash
+$ ./bin/test
 $ ./bin/cibuild
+```
+
+If you prefer npm-based entry points, the repository also exposes:
+
+```bash
+$ npm run serve
+$ npm run test
+$ npm run build
 ```
 
 To deploy the personal site, commit and push to `master`.
