@@ -3,7 +3,7 @@ layout: page
 title: collaboration
 permalink: /collaboration/
 description: Opportunities to collaborate with industry.
-nav: true
+nav: false
 ---
 
 With years of research and development in academic and industrial environments, I have proven experience to design, implement, review, and deliver reliable products with thorough theoretical problem understanding and analyses.
